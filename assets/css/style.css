@@ -21,7 +21,7 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.describe{
   white-space: pre-wrap;
 }
 
@@ -29,6 +29,15 @@ textarea{
   text-align: center;
   border-radius: 15px;
 }
+
+/* .time-section {
+  flex: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+  width: 95%;
+} */
 
 .row {
   white-space: pre-wrap;
