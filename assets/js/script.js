@@ -8,7 +8,7 @@ $(document).ready(function () {
     // saveBtn click listener 
     $(".saveBtn").on("click", function () {
         // Get nearby values of the description in JQuery
-        var text = $(this).siblings(".description").val();
+        var text = $(this).siblings(".describe").val();
         var time = $(this).parent().attr("id");
 
         // Save text in local storage
@@ -44,16 +44,16 @@ $(document).ready(function () {
     }
 
     // Get item from local storage if any
-    $("#hour1 .description").val(localStorage.getItem("hour1"));
-    $("#hour2 .description").val(localStorage.getItem("hour2"));
-    $("#hour3 .description").val(localStorage.getItem("hour3"));
-    $("#hour4.description").val(localStorage.getItem("hour4"));
-    $("#hour5 .description").val(localStorage.getItem("hour5"));
-    $("#hour6 .description").val(localStorage.getItem("hour6"));
-    $("#hour7 .description").val(localStorage.getItem("hour7"));
-    $("#hour8 .description").val(localStorage.getItem("hour8"));
-    $("#hour9 .description").val(localStorage.getItem("hour9"));
-    $("#hour10 .description").val(localStorage.getItem("hour10"));
+    $("#hour8 .describe").val(localStorage.getItem("hour8"));
+    $("#hour9 .describe").val(localStorage.getItem("hour9"));
+    $("#hour10 .describe").val(localStorage.getItem("hour10"));
+    $("#hour11 .describe").val(localStorage.getItem("hour11"));
+    $("#hour12 .describe").val(localStorage.getItem("hour12"));
+    $("#hour13 .describe").val(localStorage.getItem("hour13"));
+    $("#hour14 .describe").val(localStorage.getItem("hour14"));
+    $("#hour15 .describe").val(localStorage.getItem("hour15"));
+    $("#hour16 .describe").val(localStorage.getItem("hour16"));
+    $("#hour17 .describe").val(localStorage.getItem("hour17"));
 
     timeTracker();
 })
